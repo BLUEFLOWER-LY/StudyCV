@@ -7,7 +7,7 @@ def cv_show(name, img):
 
 
 if __name__ == '__main__':
-    img = cv2.imread('img/ly.jpg')
+    img = cv2.imread('img/xiong.jpg')
     cutImg = img[0:200][0:200]
     cv_show('my', cutImg)
     # 单独提取颜色通道

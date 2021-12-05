@@ -10,8 +10,8 @@ def cv_show(name, img):
 
 
 if __name__ == '__main__':
-    # img = cv2.imread('ly.jpg')  # 默认彩色模式，数据为BGR格式
-    img = cv2.imread('img/ly.jpg', cv2.IMREAD_GRAYSCALE)  # 灰度图模式
+    # img = cv2.imread('xiong.jpg')  # 默认彩色模式，数据为BGR格式
+    img = cv2.imread('img/xiong.jpg', cv2.IMREAD_GRAYSCALE)  # 灰度图模式
     cv_show('我的头像', img)
     # 图片的H W C 高 宽 通道(灰度图没有通道值)
     print(img.shape)
