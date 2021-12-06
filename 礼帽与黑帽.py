@@ -9,7 +9,7 @@ def cv_show(name, img):
 
 
 # 礼帽 = 原始输入 - 开运算 (eg：带刺的 - 不带刺的 = 刺)
-# 黑帽 = 闭运算 - 原始输入 (eg:)
+# 黑帽 = 闭运算 - 原始输入
 
 if __name__ == '__main__':
     origin_img = cv2.imread('img/dige.png')  # 原图

@@ -8,7 +8,7 @@ def cv_show(name, img):
     cv2.destroyAllWindows()
 
 
-# 梯度运算约等于 膨胀-腐蚀=轮廓 (有异议)
+# 梯度运算约等于 膨胀-腐蚀=轮廓 (有异议!)
 
 if __name__ == '__main__':
     origin_img = cv2.imread('img/pie.png')  # 原图
